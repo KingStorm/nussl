@@ -20,7 +20,7 @@ modified by Ethan Manilow and Prem Seetharaman for incorporation into nussl.
 
 import numpy as np
 
-import separation_base
+from nussl.separation import separation_base
 from ..core import utils
 from ..core import constants
 from ..core.audio_signal import AudioSignal

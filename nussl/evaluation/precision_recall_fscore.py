@@ -58,8 +58,8 @@ See Also:
 
 import sklearn
 
-import evaluation_base
-from ..separation.masks import binary_mask
+from nussl.evaluation import evaluation_base
+from nussl.separation.masks import binary_mask
 
 
 class PrecisionRecallFScore(evaluation_base.EvaluationBase):

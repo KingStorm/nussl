@@ -7,8 +7,7 @@ evaluation method of your choosing, all in one fell swoop.
 """
 
 import warnings
-
-import evaluation_base
+from nussl.evaluation import evaluation_base
 from ..core import utils
 from ..core import constants
 from .precision_recall_fscore import PrecisionRecallFScore

@@ -6,8 +6,9 @@ from scipy.ndimage.filters import maximum_filter, minimum_filter
 
 from ..core.audio_signal import AudioSignal
 from ..core import constants
-import mask_separation_base
-import masks
+
+from nussl.separation import mask_separation_base
+from nussl.separation import masks
 
 
 class FT2D(mask_separation_base.MaskSeparationBase):

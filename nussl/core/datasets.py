@@ -13,8 +13,8 @@ import warnings
 
 import numpy as np
 
-import efz_utils
-from audio_signal import AudioSignal
+from nussl.core import efz_utils
+from nussl.core.audio_signal import AudioSignal
 
 __all__ = ['iKala', 'mir1k', 'timit', 'medleyDB', 'musdb18', 'dsd100']
 

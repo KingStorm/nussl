@@ -15,7 +15,7 @@ import collections
 import numpy as np
 import musdb
 
-import constants
+from nussl.core import constants
 
 __all__ = ['find_peak_indices', 'find_peak_values',
            'json_ready_numpy_array', 'json_serialize_numpy_array', 'load_numpy_json',

@@ -4,8 +4,10 @@
 import numpy as np
 
 from ..core import constants
-import masks
-import mask_separation_base
+
+
+from nussl.separation import masks
+from nussl.separation import mask_separation_base
 from .. import AudioSignal
 
 

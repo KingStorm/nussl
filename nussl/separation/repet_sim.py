@@ -9,8 +9,8 @@ import warnings
 
 import numpy as np
 
-import mask_separation_base
-import masks
+from nussl.separation import mask_separation_base
+from nussl.separation import masks
 from ..core import utils
 from ..core import constants
 

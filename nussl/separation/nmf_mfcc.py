@@ -8,8 +8,8 @@ import sklearn.cluster
 import librosa
 
 from ..transformers import transformer_nmf
-import mask_separation_base
-import masks
+from nussl.separation import mask_separation_base
+from nussl.separation import masks
 
 
 class NMF_MFCC(mask_separation_base.MaskSeparationBase):

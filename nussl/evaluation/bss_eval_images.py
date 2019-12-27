@@ -5,8 +5,7 @@
 """
 
 import museval
-
-import bss_eval_base
+from nussl.evaluation import bss_eval_base
 
 
 class BSSEvalImages(bss_eval_base.BSSEvalBase):

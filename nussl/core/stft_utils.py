@@ -13,8 +13,7 @@ import numpy as np
 import scipy.fftpack as scifft
 import scipy.signal
 
-import constants
-
+from nussl.core import constants
 __all__ = ['plot_stft', 'e_stft', 'e_istft', 'e_stft_plus', 'librosa_stft_wrapper', 'librosa_istft_wrapper',
            'make_window', 'StftParams']
 

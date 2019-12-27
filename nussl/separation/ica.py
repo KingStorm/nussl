@@ -3,8 +3,7 @@
 
 import numpy as np
 import sklearn
-
-import separation_base
+from nussl.separation import separation_base
 from ..core import constants
 from ..core.audio_signal import AudioSignal
 from ..core import utils

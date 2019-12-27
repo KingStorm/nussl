@@ -8,8 +8,7 @@ implementation of BSS-Eval version 4.
 """
 import museval
 import json
-
-import bss_eval_base
+from nussl.evaluation  import bss_eval_base
 from ..core import constants, utils
 
 

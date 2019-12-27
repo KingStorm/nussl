@@ -9,8 +9,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy import signal
 
-import mask_separation_base
-import masks
+from nussl.separation import mask_separation_base
+from nussl.separation import masks
 from ..core import utils
 from ..core import constants
 from ..core.audio_signal import AudioSignal

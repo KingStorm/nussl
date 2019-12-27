@@ -58,8 +58,9 @@ Examples:
 import numpy as np
 import warnings
 
-import mask_base
-import binary_mask
+
+from nussl.separation.masks import mask_base
+from nussl.separation.masks import binary_mask
 
 
 class SoftMask(mask_base.MaskBase):

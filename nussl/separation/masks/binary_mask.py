@@ -70,7 +70,7 @@ Examples:
 
 import numpy as np
 
-import mask_base
+from nussl.separation.masks import mask_base
 
 
 class BinaryMask(mask_base.MaskBase):

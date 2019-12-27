@@ -21,7 +21,7 @@ from six.moves.urllib.error import HTTPError
 from six.moves.urllib.error import URLError
 from six.moves.urllib.request import urlopen, Request
 
-import constants
+from nussl.core import constants
 
 
 __all__ = ['get_available_audio_files', 'print_available_audio_files',

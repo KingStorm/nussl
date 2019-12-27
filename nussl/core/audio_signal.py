@@ -110,9 +110,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 import scipy.io.wavfile as wav
 
-import constants
-import stft_utils
-import utils
+from nussl.core import constants
+from nussl.core import stft_utils
+from nussl.core import utils
 
 __all__ = ['AudioSignal']
 

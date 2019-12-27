@@ -7,13 +7,13 @@ import warnings
 
 import numpy as np
 
-import separation_base
+from nussl.separation import separation_base
 from ..core import stft_utils
 from ..core import constants
 
-from ft2d import FT2D
-from repet import Repet
-from repet_sim import RepetSim
+from nussl.separation.ft2d import FT2D
+from nussl.separation.repet import Repet
+from nussl.separation.repet_sim import RepetSim
 
 
 class OverlapAdd(separation_base.SeparationBase):
